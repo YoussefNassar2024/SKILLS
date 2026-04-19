@@ -27,9 +27,10 @@
       "command": "npx",
       "args": ["-y", "flowbite-mcp"]
     },
-    "mui": {
+    "mui-mcp": {
+      "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@mui/mcp-server"]
+      "args": ["-y", "@mui/mcp@latest"]
     },
     "reactbits": {
       "command": "npx",
@@ -37,11 +38,16 @@
     },
     "postgres": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://user:pass@localhost:5432/dbname"]
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://user:pass@localhost:5432/dbname"
+      ]
     },
-    "magic-ui": {
+
+    "magicuidesign-mcp": {
       "command": "npx",
-      "args": ["-y", "magic-ui-mcp"]
+      "args": ["-y", "@magicuidesign/mcp@latest"]
     },
     "firecrawl": {
       "command": "npx",
