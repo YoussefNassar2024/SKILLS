@@ -34,6 +34,28 @@
     "reactbits": {
       "command": "npx",
       "args": ["-y", "reactbits-mcp-server"]
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://user:pass@localhost:5432/dbname"]
+    },
+    "magic-ui": {
+      "command": "npx",
+      "args": ["-y", "magic-ui-mcp"]
+    },
+    "firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "replace-me"
+      }
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "replace-me"
+      }
     }
   }
 }
