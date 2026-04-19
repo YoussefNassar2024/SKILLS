@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "puppeteer": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "env": {
+        "DEFAULT_MINIMUM_TOKENS": ""
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@0.0.38"]
+    },
+    "tailwindcss-server": {
+      "command": "npx",
+      "args": ["-y", "tailwindcss-mcp-server"]
+    },
+    "google-search": {
+      "command": "npx",
+      "args": ["-y", "@mcp-server/google-search-mcp@latest"]
+    },
+    "flowbite": {
+      "command": "npx",
+      "args": ["-y", "flowbite-mcp"]
+    },
+    "mui": {
+      "command": "npx",
+      "args": ["-y", "@mui/mcp-server"]
+    },
+    "reactbits": {
+      "command": "npx",
+      "args": ["-y", "reactbits-mcp-server"]
+    }
+  }
+}
